@@ -18,6 +18,7 @@ pizzas.fetch();
 
 pizzas.on('update', function(){
   console.log(pizzas);
+  
   pizzas.forEach(function(pizza){
     $('button').text('Submit');
 
